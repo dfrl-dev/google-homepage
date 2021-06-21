@@ -1,0 +1,163 @@
+body {
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+div {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    margin-top: 89px;
+    height:233px;
+}
+
+#logo-img {
+    padding-top: 109px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    padding: 15px 0 15px 15px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    vertical-align: middle;
+    color: rgba(0,0,0,0.87);
+}
+
+.topnav a {
+    color:rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+}
+
+form {
+    width: 583px;
+    height: 44px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+button {
+    margin-top: 37px;   
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    font-family: areal, sans-serif;
+    font-size: 14px; 
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    color: #5F6368;
+    height: 36px;
+    min-width: 54px;
+}
+
+.buttons {
+    padding-top: 18px;
+}
+#search-field {
+    border-radius: 30px;
+    width: 583px;
+    height: 45px;
+    border: 1px solid #eaeaea;
+    text-indent: 40px;
+}
+
+input [type="search"]{
+    transition: box-shadow .01s;
+
+}
+
+input:hover {
+    box-shadow: 0 0 6px rgba(33,33,33,.2); 
+}
+
+input:focus {
+    box-shadow: 0 0 6px rgba(33,33,33,.2);
+    outline: none;
+}
+
+footer {
+    position: fixed;
+    background-color: #f2f2f2;
+    margin: -27px 0 0 0;
+    font-family: arial, sans-serif;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border-top: 1px solid #e4e4e4
+    
+}
+
+.search-icon {
+    position: absolute;
+    margin: 10px 0 0 10px;
+    color: rgba(0,0,0,0.3);
+}
+
+
+.nav-left {
+    float: left;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.nav-right {
+    float: right;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.footer-right {
+    float: right;
+    white-space: nowrap;
+    margin-right: 30px;
+}
+
+.footer-left {
+    float: left;
+    white-space: nowrap;
+}
+
+.footer-links {
+    font-size: 14px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+#signin {
+    background: #4285f4;
+    font-weight: bold;
+    color: #FFF;
+    padding: 8px 15px 8px 15px;
+    height: 30px;
+    border-radius: 3px;
+}
